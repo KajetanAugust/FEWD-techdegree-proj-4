@@ -1,0 +1,12 @@
+
+
+@mixin img-position {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin flex-disp-dir {
+    display: flex;
+    flex-direction: column;
+}

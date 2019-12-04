@@ -3,8 +3,7 @@
   }
   
   .row {
-    display: flex;
-    flex-direction: column;
+    @include flex-disp-dir;
     padding: 1em 10px;
   }
   
