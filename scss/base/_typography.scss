@@ -18,7 +18,7 @@ a {
 //fonts
 
 .headline-primary {
-    color: $main-head;
+    color: $main-head-color;
     margin-left: 10px;
   }
   
@@ -38,7 +38,7 @@ a {
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
-    border-left: 8px solid $main-head;
+    border-left: 8px solid $main-head-color;
     border-radius: 5px;
   }
   
