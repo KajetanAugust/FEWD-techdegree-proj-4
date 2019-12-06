@@ -4,4 +4,4 @@
         'form',
         'images';
 
-        @include media-query;
+        @include mq(768)

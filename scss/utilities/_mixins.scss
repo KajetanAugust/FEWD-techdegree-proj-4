@@ -22,8 +22,14 @@
 
 //media query
 
-@mixin media-query  {
-    @media (min-width:$min-width) {
+@mixin mq ($size) {
+    
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+
+    @media (min-width:#{$size}px) {
 
         .container {
           max-width: 1400px;
