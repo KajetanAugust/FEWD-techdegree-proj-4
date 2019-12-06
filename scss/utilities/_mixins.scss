@@ -1,10 +1,13 @@
 
+//repeated img positioning
 
 @mixin img-position {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+//repeated flex
 
 @mixin flex-disp-dir {
     display: flex;
@@ -21,13 +24,6 @@
 }
 
 //media query
-
-
-    
-
-/* ============================================= */
-/*              Media Queries                    */
-/* ============================================= */
 
 @mixin mq($size) {
     @media (min-width: $size) {
