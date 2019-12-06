@@ -1,7 +1,5 @@
-@import 'grid', 
+@import 'images', 
         'navigation', 
         'button', 
         'form',
-        'images';
-
-        @include mq(768)
+        'grid';

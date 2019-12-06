@@ -1,3 +1,6 @@
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -385,83 +388,31 @@ a {
 }
 
 /* ============================================= */
-/*              Grid System                      */
+/*              Images                           */
 /* ============================================= */
-.container {
-  padding: 0 10px;
-}
-
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 1em 10px;
-}
-
-[class^=col] {
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 10px;
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  min-height: 25px;
-  padding: 10px;
-  border-radius: 5px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.theme.col-1 {
-  background-color: #927bc1;
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
 }
 
-.theme.col-2 {
-  background-color: #fd7856;
-}
-
-.theme.col-3 {
-  background-color: #deb2ee;
-}
-
-.theme.col-4 {
-  background-color: #7ee6fd;
-}
-
-.theme.col-5 {
-  background-color: #88d9a0;
-}
-
-.theme.col-6 {
-  background-color: #4da2bb;
-}
-
-.theme.col-7 {
-  background-color: #ec9fa3;
-}
-
-.theme.col-8 {
-  background-color: #fd9f85;
-}
-
-.theme.col-9 {
-  background-color: #e4757a;
-}
-
-.theme.col-10 {
-  background-color: #63cc82;
-}
-
-.theme.col-11 {
-  background-color: #51ddfc;
-}
-
-.theme.col-12 {
-  background-color: #80e8d1;
-}
-
-.card {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ============================================= */
@@ -585,36 +536,85 @@ a {
 }
 
 /* ============================================= */
-/*              Images                           */
+/*              Grid System                      */
 /* ============================================= */
-.img-avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.container {
+  padding: 0 10px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em 10px;
+}
+
+[class^=col] {
   margin-top: 10px;
-  max-width: 100%;
-  max-height: 100%;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
-  padding: 13px;
-  border: 1px solid #ccc;
+.theme.col-1 {
+  background-color: #927bc1;
 }
 
-.img-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.theme.col-2 {
+  background-color: #fd7856;
 }
 
-/* ============================================= */
-/*              Media Queries                    */
-/* ============================================= */
+.theme.col-3 {
+  background-color: #deb2ee;
+}
+
+.theme.col-4 {
+  background-color: #7ee6fd;
+}
+
+.theme.col-5 {
+  background-color: #88d9a0;
+}
+
+.theme.col-6 {
+  background-color: #4da2bb;
+}
+
+.theme.col-7 {
+  background-color: #ec9fa3;
+}
+
+.theme.col-8 {
+  background-color: #fd9f85;
+}
+
+.theme.col-9 {
+  background-color: #e4757a;
+}
+
+.theme.col-10 {
+  background-color: #63cc82;
+}
+
+.theme.col-11 {
+  background-color: #51ddfc;
+}
+
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
+.card {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 1400px;
