@@ -6,25 +6,41 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    
   }
   
   .default {
     background-color: $default-color;
+    &:hover{
+      @include light-color($default-color)
+    }
   }
   
   .error {
     background-color: $error-color;
+    &:hover{
+      @include light-color($error-color)
+    }
   }
   
   .info {
     background-color: $info-color;
+    &:hover{
+      @include light-color($info-color)
+    }
   }
   
   .success {
     background-color: $succes-color;
+    &:hover{
+      @include light-color($succes-color)
+    }
   }
   
   .warning {
     background-color: $warning-color;
+    &:hover{
+      @include light-color($warning-color)
+    }
   }
   
